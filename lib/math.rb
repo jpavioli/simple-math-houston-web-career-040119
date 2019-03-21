@@ -24,5 +24,6 @@ end
 
 def order_of_operation(num1, num2, num3, num4)
   #Hint:  __ + (( __ * __ ) / __ )
-  
+  #Trick question - the actual answer is 18.91566 (it is assumed that nums are all integers)
+  num1+((num2+num3)/num4)
 end
